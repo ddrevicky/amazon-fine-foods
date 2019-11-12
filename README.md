@@ -8,10 +8,10 @@ of the product in terms of (1, 2, 3, 4 or 5) stars.
 The task is to train a model which receives a text review as input and predicts whether it is positive or negative 
 (for simplicity's sake, I treated reviews with 2 or more stars as being positive).
 
-## Approach
+## Summary
 - The solution uses the fastai library for training the model.
 - The entire dataset is used. The classifier was trained with a 60/20/20 train/validation/test ratio.
-- The final model achieves an accuracy of 95% on the held out test set (20% of the data).
+- The **final model achieves an accuracy of 95%** on the held out test set (20% of the data).
 
 ## Data Exploration
 - Unique products: 74258
