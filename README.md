@@ -17,7 +17,21 @@ The task is to train a model which receives a text review as input and predicts 
 - Unique products: 74258
 - Unique users: 256047
 
+#### Review Ratings
+![](https://github.com/ddrevicky/amazon-fine-foods/blob/master/images/reviews.png)
 
+Most reviews are positive - the dataset is unbalanced. It is also important to be aware that most people who write reviews are either very disappointed or very satisfied so there will likely be extremes of language in the text. This might be an issue when applying the model on more moderate reviews.
+
+#### Word Count Per Review
+![](https://github.com/ddrevicky/amazon-fine-foods/blob/master/images/word_count.png)
+
+#### Reviews Per Product
+![](https://github.com/ddrevicky/amazon-fine-foods/blob/master/images/product_review_count.png)
+#### Reviews Per User
+![](https://github.com/ddrevicky/amazon-fine-foods/blob/master/images/user_review_count.png)
+
+#### Reviews Years
+![](https://github.com/ddrevicky/amazon-fine-foods/blob/master/images/review_years.png)
 
 Most reviews come from years 2008-2011. This might be relevant when using and evaluating our model. 
 Although it is sensible to assume that the English vocabulary has not changed much for example between 1999 and 2011 
